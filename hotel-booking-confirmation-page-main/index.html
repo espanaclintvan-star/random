@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Hotel booking confirmation page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+
+  <body style="background-color: rgb(255, 247, 238)">
+    <div class="menu">
+      <div style="border-bottom: 1px dotted black">
+        <img class="logo" src="assets\images\logo.svg" alt="" />
+      </div>
+
+      <nav>
+        <div style="margin-bottom: 70%">
+          <h3 class="op1">Your stay</h3>
+          <h3 class="op2">The house</h3>
+          <h3 class="op3">Around town</h3>
+          <h3 class="op4">Breakfast</h3>
+          <h3 class="op5">Messages</h3>
+        </div>
+      </nav>
+      <!-- Local weather -->
+
+      <div class="weather">
+        <p style="margin-top: 0.7vh">Today in Cassis</p>
+        <p style="font-size: 1.4vw"><b>27°</b></p>
+        <p>Sunny · light breeze</p>
+      </div>
+      <div class="bottommenu">
+        <p>
+          Est. 1987<br />
+          Maison Soleil · 12 Rue des Oliviers · Cassis<br />
+          © 2026 Maison Soleil
+        </p>
+      </div>
+      <!-- Sidebar ends -->
+    </div>
+
+    <div class="main">
+
+      <p style="font-size: 1vw">BOOKING · CONFIRMED</p>
+
+      <div style="display: flex; gap: 40vw">
+        <span style="font-size: 3vw">
+          Bienvenue, <i style="color: rgb(190, 42, 19)">Lucia.</i>
+        </span>
+        <div class="option">
+          <a href="" style="color: black; background-color: antiquewhite"
+            >Print receipt</a
+          >
+          <a href="" style="color: white; background-color: black"
+            >Add to calendar</a
+          >
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 10vw; margin-top: -1vh;">
+        <!-- Booking cards start -->
+        <div class="Receiptcard">
+          <!-- Receipt card -->
+          <div
+            style="
+              border-bottom: dotted rgba(0, 0, 0, 0.363) 0.1vw;
+              margin-top: 1vh;
+            "
+          >
+            <div style="display: flex; gap: 13.6vw">
+              <span style="font-size: 0.8vw">Receipt</span>
+              <span style="font-size: 0.8vw">№ MS-2026</span>
+            </div>
+            <div style="display: flex; gap: 11.2vw; margin-bottom: 2vh">
+              <span style="font-size: 1.2vw; font-weight: bold">Your stay</span>
+              <span style="font-size: 0.8vw">0421-AH</span>
+            </div>
+          </div>
+
+          <div style="border-bottom: dotted rgba(0, 0, 0, 0.363) 0.1vw">
+            <div
+              style="
+                display: flex;
+                gap: 5.2vw;
+                margin-top: 2vh;
+                text-indent: 2vw;
+              "
+            >
+              <span style="font-size: 1vw">Check in</span>
+              <span style="font-size: 1vw">Check out</span>
+            </div>
+            <div style="display: flex; gap: 4vw; text-indent: 1vw">
+              <span style="font-size: 2vw; font-weight: bold">25 Apr </span>
+              <span style="font-size: 2vw; font-weight: bold">29 Apr</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                gap: 3vw;
+                text-indent: 1vw;
+                margin-bottom: 2vh;
+              "
+            >
+              <span style="font-size: 1vw">Saturday · 15:00 </span>
+              <span style="font-size: 1vw">Wednesday · 11:00 </span>
+            </div>
+          </div>
+
+          <div style="border-bottom: dotted black 0.1vw">
+            <div style="display: flex; gap: 4.5vw; margin-top: 2vh">
+              <span style="font-size: 1vw">Room · La Garrigue · 4 nights</span>
+              <span style="font-size: 1vw">€ 620.00</span>
+            </div>
+            <div style="display: flex; gap: 8.75vw">
+              <span style="font-size: 1vw">Breakfast · 2 guests</span>
+              <span style="font-size: 1vw">€ 96.00</span>
+            </div>
+            <div style="display: flex; gap: 12.4vw; margin-bottom: 2vh">
+              <span style="font-size: 1vw">Tourist tax</span>
+              <span style="font-size: 1vw">€ 14.40</span>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 9.5vw; margin-top: 2vh">
+            <span style="font-size: 1vw">TOTAL PAID </span>
+            <span style="font-size: 1.5vw; font-weight: BOLD">€ 730.40</span>
+          </div>
+          <div style="display: flex; gap: 8.5vw; margin-top: 2vh">
+            <span style="font-size: 0.9vw; margin-top: 1vh"
+              >Paid · Wise · GBP</span
+            >
+            <img
+              src="assets/images/icon-barcode.svg"
+              alt=""
+              style="width: 6vw"
+            />
+          </div>
+        </div>
+        <div>
+          <div class="hostcard">
+            <!-- Note from host card -->
+            <p style="font-size: 0.5vw; margin-top: 4vh; margin-bottom: 6vh">
+              WELCOME CARD
+            </p>
+            <p style="font-size: 1.1vw; margin-bottom: 1vh">
+              <i>A note from your host,</i>
+            </p>
+            <p
+              style="
+                font-size: 2.2vw;
+                font-weight: bold;
+                margin-top: 1vh;
+                margin-bottom: 2vh;
+              "
+            >
+              Margaux.
+            </p>
+            <p style="font-size: 0.9vw">
+              We're so glad you're coming. The shutters will be open,
+            </p>
+            <p style="font-size: 0.9vw">
+              the lemonade cold, and the cat - Poivre - pretending
+            </p>
+            <p style="font-size: 0.9vw">not to notice you.</p>
+            <p style="margin-top: 5vh">Room</p>
+            <p style="font-size: 1.3vw; margin-top: 1vh">La Garrigue</p>
+          </div>
+          <p
+            class="bottomcard"
+            style="margin-left: 38vw; margin-top: 54vh; z-index: 11"
+          >
+            HOVER TO FAN
+          </p>
+        </div>
+      </div>
+
+      <div class="arrival">
+        <div
+          style="display: flex; margin-top: 1.5vh; color: brown; height: 6vh"
+        >
+          <span style="position: relative"
+            ><img
+              src="assets/images/icon-key.svg"
+              alt=""
+              style="
+                margin-bottom: 10vh;
+                background-color: brown;
+                width: 1.5vw;
+                padding: 1vh;
+                border-radius: 0.5vw;
+              "
+          /></span>
+          <span style="font-size: 1.1vw; margin-top: 1vh; font-weight: bold"
+            >Arrival</span
+          >
+          <span style="font-size: 2vw; margin-left: 7vw"> 01 </span>
+        </div>
+        <p
+          style="
+            font-size: 1.8vw;
+            margin-top: 0.5vh;
+            margin-bottom: -1vh;
+            color: black;
+          "
+        >
+          Check-in from 15:00
+        </p>
+        <p style="color: rgb(140, 140, 140)">Sat, 25 April</p>
+
+        <p style="font-size: 0.9vw; margin-bottom: -1vh">
+          Ring the brass bell by the blue door. If we're at
+        </p>
+        <p style="font-size: 0.9vw; margin-bottom: -1vh">
+          the market, the key is in the terracotta pot by
+        </p>
+        <p style="font-size: 0.9vw; margin-bottom: -1vh">the olive tree.</p>
+      </div>
+      <div class="wifi">
+        <div style="display: flex; margin-top: 1.5vh; color: blue; height: 6vh">
+          <span style="position: relative"
+            ><img
+              src="assets/images/icon-wifi.svg"
+              alt=""
+              style="
+                margin-bottom: 10vh;
+                background-color: blue;
+                width: 1.5vw;
+                padding: 1vh;
+                border-radius: 0.5vw;
+              "
+          /></span>
+          <span style="font-size: 1.1vw; margin-top: 1vh; font-weight: bold"
+            >WIFI</span
+          >
+          <span style="font-size: 2vw; margin-left: 7vw"> 02 </span>
+        </div>
+        <p
+          style="
+            font-size: 1.8vw;
+            margin-top: 0.5vh;
+            margin-bottom: -1vh;
+            color: black;
+          "
+        >
+          Le Soleil · Guest
+        </p>
+        <p style="color: rgb(140, 140, 140)">Password below</p>
+
+        <div class="network" style="display: flex; gap: 4vw; font-size: 1vw">
+          <span>NETWORK</span>
+          <span>Le Soleil · Guest</span>
+        </div>
+        <div class="password" style="display: flex; gap: 2.5vw; font-size: 1vw">
+          <span>PASSWORD</span>
+          <span>soleil-2026</span>
+        </div>
+      </div>
+      <div class="breakfast">
+        <div style="display: flex; margin-top: 1.5vh; color: rgb(227, 127, 144); height: 6vh">
+          <span style="position: relative"
+            ><img
+              src="assets/images/icon-breakfast.svg"
+              alt=""
+              style="
+                margin-bottom: 10vh;
+                background-color: rgb(227, 127, 144);
+                width: 1.5vw;
+                padding: 1vh;
+                border-radius: 0.5vw;
+              "
+          /></span>
+          <span style="font-size: 1.1vw; margin-top: 1vh; font-weight: bold"
+            >BREAKFAST</span
+          >
+          <span style="font-size: 2vw; margin-left: 4.5vw"> 03 </span>
+        </div>
+        <p
+          style="
+            font-size: 1.8vw;
+            margin-top: 0.5vh;
+            margin-bottom: -1vh;
+            color: black;
+          "
+        >
+          Served 8 - 10:30
+        </p>
+        <p style="color: rgb(140, 140, 140)">On the terrace</p>
+        <p style="font-size: 0.9vw; margin-bottom: -1vh">
+          Fresh figs, Marseille honey, pain au levain, and 
+        </p>
+        <p style="font-size: 0.9vw; margin-bottom: -1vh">
+          espresso. Gluten-free option? Leave a note the 
+        </p>
+        <p style="font-size: 0.9vw; margin-bottom: -1vh">night before.</p>
+    </div>
+      <footer class="attribution" >
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">CLINT VAN B. ESPAÑA</a>.
+    </footer>
+    </div>
+    
+  </body>
+
+</html>

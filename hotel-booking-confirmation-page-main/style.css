@@ -1,0 +1,248 @@
+      p{
+        font-size: .7vw;
+      }
+      .attribution {
+        font-size: 0.6875rem;
+        text-align: center;
+        font-size: 1vw;
+      }
+      .attribution a {
+        color: brown;
+        text-decoration: none;
+      }
+      .menu{
+        width: 14vw;
+        height: 100vh;
+        padding: 1%;
+        border-right: 1px outset black ;
+        background-color: rgb(255, 247, 238);
+        position:fixed;
+      }
+      .bottommenu{
+        border-top: 1px dotted black;
+        margin-top: 5%;
+      }
+      .weather{
+        background-image: url("assets/images/icon-weather.svg");
+        background-repeat: no-repeat;
+        background-size: 10vh 4vw;
+        background-position-x: 24.5vh;
+        background-position-y: -1vw;
+        background-color: rgb(247, 202, 96);
+        background-position: relative;
+        position: relative;
+        overflow:hidden;
+        margin-top: 40vh;
+        margin-bottom: 3vh;
+        border-radius: 1vw;
+        width: 14vw;
+        height: 10vh;
+      }
+
+      .weather p{
+        font-size: 1vw;
+        margin: 0vh;
+        text-indent: .5vw;
+      }
+
+
+      .logo{
+        width: 50%;
+        height: 50%;
+        margin-bottom: 4%;
+      }
+
+
+      .op1{
+        background-image: url("assets/images/icon-bed.svg");
+        background-size: 1.5vw;
+        background-repeat: no-repeat;
+        position: relative;
+        text-indent: 3vw;
+        font-size: 1.1vw;
+      }
+      
+      .op1::after{
+        content:"1";
+        background-color: rgb(190, 42, 19);
+        padding: 0px .5vw;
+        position: relative;
+        justify-content: center;
+        color: white;
+        left: 5vw;
+        border-radius: 50%  ;
+      }
+      .op2{
+        background-image: url("assets/images/icon-house.svg");
+        background-size: 1.5vw;
+        background-repeat: no-repeat;
+        text-indent: 3vw;
+        font-size: 1.1vw;
+      }
+      .op3{
+        background-image: url("assets/images/icon-pin.svg");
+        background-size: 1.5vw;
+        background-repeat: no-repeat;
+        text-indent: 3vw;
+        font-size: 1.1vw;
+      }
+      .op4{
+        background-image: url("assets/images/icon-breakfast-outline.svg");
+        background-size: 1.5vw;
+        background-repeat: no-repeat;
+        text-indent: 3vw;
+        font-size: 1.1vw;
+      }
+      .op5{
+        background-image: url("assets/images/icon-mail.svg");
+        background-size: 1.5vw;
+        background-repeat: no-repeat;
+        text-indent: 3vw;
+        font-size: 1.1vw;
+      }
+
+
+      .main{
+        position:fixed;
+        margin-left: 17vw;
+        padding-right: 100vw;
+        padding-bottom: 100vh;
+        z-index: -1;
+        width: 80vw;
+        margin-top: -3vh;
+      }
+
+      .option{
+        font-size: 1.1vw;
+        margin-top: 1.8vh;
+      }
+
+      .option a{
+        margin-right: 1vw;
+        padding: .5vw;
+        text-decoration: none;
+        border-radius: 1vw;
+        border:solid black .1vw;
+      }
+
+      .Receiptcard{
+        left: 18vw;
+        transform: rotate(-4deg);
+        box-shadow: 0vh .3vh .5vw 0 black;
+        position: absolute;
+        background-color:white;
+        top: 9vw;
+        padding-left: 1vw ;
+        padding-right: 0.5vw;
+        padding-bottom: 1vh;
+        margin: 1vh 1vh 1vw 1vw;
+        border-radius: 1vw;
+      }
+
+      .hostcard{
+        background-color: rgb(190, 42, 19);
+        left: 40vw;
+        transform: rotate(4deg);
+        box-shadow: 0vh .3vh .5vw 0 black;
+        position: absolute;
+        top: 9vw;
+        padding-left: 1vw ;
+        padding-right: 0.5vw;
+        padding-bottom: 1vh;
+        margin: 1vh 1vh 1vw 1vw;
+        border-radius: 1vw;
+        height: 46vh;
+        width: 21vw;
+        background-image: url(assets/images/icon-sun.svg);
+        background-repeat: no-repeat;
+        background-position-x: 18vw;
+        background-position-y: 4vh;
+        background-size: 3vw;
+        color: white;
+      }
+
+    .bottomcard::after{
+        content: "";
+        background-image: url(assets/images/icon-sparkle.svg);
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: .5vw;
+        width: 1.4vw;
+        height: 1.4vh;
+    }
+    .bottomcard::before{
+        content: "";
+        background-image: url(assets/images/icon-sparkle.svg);
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 1.4vw;
+        height: 1.4vh; 
+    }
+
+    .arrival{
+      position: relative;
+      background-color: white;
+      margin-right: 55vw;
+      margin-left: 2vw;
+      padding-bottom: 1.8vh;
+      padding-top: 1vh;
+      text-indent: 2vw;
+      border-radius: 1vw;
+      height: 25vh;
+    }
+
+    .arrival p{
+      color: rgb(15, 15, 15);
+    }
+
+    .wifi{
+      position: relative;
+      background-color: white;
+      margin-right: 29vw;
+      margin-left: 28vw;
+      margin-top: -27.59vh;
+      padding-bottom: 1.8vh;
+      padding-top: 1vh;
+      text-indent: 2vw;
+      border-radius: 1vw;
+      height: 25vh;
+    }
+
+    .network{
+      background-color: rgba(0, 0, 0, 0.176);
+      margin-left: 1vw;
+      margin-right: .9vw;
+      padding-top: .5vw;
+      padding-bottom: .5vw;
+      border-radius: 1vw;
+    }
+
+    .password{
+      background-color: rgba(0, 0, 0, 0.176);
+      margin-left: 1vw;
+      margin-right: .9vw;
+      margin-top: .5vh;
+      padding-top: .5vw;
+      padding-bottom: .5vw;
+      border-radius: 1vw;
+    }
+    .password::after{
+      content: "COPY";
+      font-size: .8vw;
+      color: rgb(43, 42, 42);
+      margin-left: -3.5vw;
+    }
+    .breakfast{
+      position: relative;
+      background-color: white;
+      margin-right: 2vw;
+      margin-left: 54vw;
+      margin-top: -27.59vh;
+      padding-bottom: 1.8vh;
+      padding-top: 1vh;
+      text-indent: 2vw;
+      border-radius: 1vw;
+      height: 25vh;
+    }
